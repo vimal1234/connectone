@@ -1,0 +1,160 @@
+{
+	"variables": [],
+	"info": {
+		"name": "live collection",
+		"_postman_id": "2e7ea5da-cc89-810b-4b90-0bc7f5af1084",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://tos2.connect1.us/api/auth",
+			"request": {
+				"url": "http://tos2.connect1.us/api/auth",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "password",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "PParikh",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "text"
+						}
+					]
+				},
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "tos2.connect1.us/api/Routes",
+			"request": {
+				"url": "tos2.connect1.us/api/Routes",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "bearer  AM_2lf5r1tcxok5_eiahOazbV4yDEMbqXSTn2e-A5y_G7sK3lPMhrU7C2j5R-zn2dVR3qURRW6HZ4vXQXfXbE73Oqs8-pDDFVpKLzGFCSA5_qodC2z8auggbyGCBSeO59qCdDZsA_V-Q9khn_lJypSp3ffm2_RaHaghy6D4vmqRfeV-Ihgu4gTdi3lrKOBQNyIX5UBKz_Q4_acpHOMEMJrb8VJmHhm0rQlXnTMyBT7oO4D6iDG7f3SqqIRzBpd0SigW1_b9lUgvKcP_WWTQSkOZ8ti6qPyzzojqJJZotVH8kLLPdnUShpIAH4NZyCxDNadCKe2Oo_L3_vbrvb73y7x7UXsKWV-HOmNg3I1ZLcmQ",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "PageIndex",
+							"value": "2"
+						},
+						{
+							"key": "PageSize",
+							"value": "4"
+						},
+						{
+							"key": "IsPopupCall",
+							"value": "0",
+							"disabled": true
+						},
+						{
+							"key": "RouteId",
+							"value": "134344",
+							"type": "text"
+						},
+						{
+							"key": "jobdate",
+							"value": "03/19/2018",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "Searchtext",
+							"value": "BROAD",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "tos2.connect1.us/api/Routesdetails",
+			"request": {
+				"url": "tos2.connect1.us/api/Routesdetails",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "bearer fQ10dx8ffrZB9XZ_SMrRPsfxzOGw1WY8Bm1bZo9X4aKjSADXtGp68u8EGHYsfYxTOZChWWV-zJNBYnKXgjjk7gXzcdMCXoaGmMOGSzSKqAmStrriBDoEYJ9iAlkAog3ucr0Y9PXeSC5_2JPO0_lKw0KwqmMFJ7fB6cZf9BoCWXXw1Eo_TCcQCuTyW2J3be7S7VmkVtvPoFt6Hzxb_NTj8gY8xZLiPZZGIauHz0GoZQXh_NWtG32hYUMp0XYevdruaZkSgCtHhC71UMERX7PFlajwH1rR7PNNtHSDdBLavA0ztOdH67bT5ZylfYpSej0ZWgGvIrDXRYp8QvF4_gIL2g_OYTLGYiR8Nhkg-hMrTsU",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "PageIndex",
+							"value": "2",
+							"disabled": true
+						},
+						{
+							"key": "PageSize",
+							"value": "4",
+							"disabled": true
+						},
+						{
+							"key": "IsPopupCall",
+							"value": "0",
+							"disabled": true
+						},
+						{
+							"key": "RouteId",
+							"value": "147726",
+							"type": "text"
+						},
+						{
+							"key": "jobdate",
+							"value": "03/19/2018",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "Searchtext",
+							"value": "BROAD",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"description": null
+			},
+			"response": []
+		}
+	]
+}
